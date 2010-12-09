@@ -1,0 +1,31 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("adcteamtrack.trend.com.tw") {
+	/* item list */
+	td.listField3 {
+		font-size: 16px !important;
+	}
+	
+	/* item detail */
+	td.ttFieldName {
+		font-weight: normal !important;
+	}
+	td.listField {
+		color: #bebebe !important;
+	}
+	span.F306,    /* item id */
+	span.F307,    /* title */
+	span.F672V575 /* product name */,
+	span.F327V481 /* priority */,
+	span.F332,    /* defect found in build */
+	span.F308     /* description */
+	{
+		color: black !important;
+		font-weight: bold !important;
+		/*
+		font-size: 16px !important;
+		*/
+	}
+}
+
+
