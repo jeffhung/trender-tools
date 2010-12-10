@@ -16,8 +16,6 @@ This software is licensed under a variation of [beerware][bw]:
   return. -- Jeff Hung
 
 [bw]: http://en.wikipedia.org/wiki/Beerware
-	  "Should the user of the product meet the author and consider the software
-      useful, he is encouraged to buy the author a beer 'in return'."
 
 Enhancements via Stylish
 ------------------------
