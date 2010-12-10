@@ -11,7 +11,7 @@
 		font-weight: normal !important;
 	}
 	td.listField {
-		color: #bebebe !important;
+		color: gray !important;
 	}
 	span.F306,    /* item id */
 	span.F307,    /* title */
@@ -25,6 +25,26 @@
 		/*
 		font-size: 16px !important;
 		*/
+	}
+
+	/* Report Table */
+
+	/* Enlarge the table so it use more space to show the data. */
+	table.rptTabulary {
+		width: auto !important;
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+	/* Enlarge the font so we can read it easier. */
+	th.rptTabHeader,
+	th.rptTabSubHeader,
+	td.rptTabData {
+		font-size: 16px !important;
+		padding: 0.2em;
+	}
+	/* Gray out those no link cells since they carry no information. */
+	td.rptTabData {
+		color: gray !important;
 	}
 }
 
