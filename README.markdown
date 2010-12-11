@@ -5,15 +5,20 @@ Using Team Track isn't a good experience, since there are so many fields that
 may make you lose focus. This project tries to use various methods to enhance
 the user experience, hence increase our productivity.
 
+Contributors
+------------
+
+* Alex Su <alex_su@trend.com.tw>
+* Jeff Hung <jeff_hung@trend.com.tw>
+
 License
 -------
 
 This software is licensed under a variation of [beerware][bw]:
 
-  The trender <jeff_hung@trend.com.tw> wrote this software. As long as you
-  retain this notice you can do whatever you want with this stuff. If we meet
-  some day, and you think this stuff is worth it, you can buy me a coke in
-  return. -- Jeff Hung
+  Some Trenders contributed this software. As long as you retain this notice
+  you can do whatever you want with this stuff. If we meet some day, and you
+  think this stuff is worth it, you can buy us a coke in return.
 
 [bw]: http://en.wikipedia.org/wiki/Beerware
 
