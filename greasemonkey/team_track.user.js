@@ -56,7 +56,52 @@ if(submitForm)  {
 }
 
 //set css
-addGlobalStyle("span.reqfilled, td.ttFieldName {color: gray !important;}");
+addGlobalStyle("span.reqfilled, td.ttFieldName {color: gray !important;}" +
+	"	/* item list */\n" +
+	"	td.listField3 {\n" +
+	"		font-size: 16px !important;\n" +
+	"	}\n" +
+	"	\n" +
+	"	/* item detail */\n" +
+	"	td.ttFieldName {\n" +
+	"		font-weight: normal !important;\n" +
+	"	}\n" +
+	"	td.listField {\n" +
+	"		color: gray !important;\n" +
+	"	}\n" +
+	"	span.F306,    /* item id */\n" +
+	"	span.F307,    /* title */\n" +
+	"	span.F672V575 /* product name */,\n" +
+	"	span.F327V481 /* priority */,\n" +
+	"	span.F332,    /* defect found in build */\n" +
+	"	span.F308     /* description */\n" +
+	"	{\n" +
+	"		color: black !important;\n" +
+	"		font-weight: bold !important;\n" +
+	"		/*\n" +
+	"		font-size: 16px !important;\n" +
+	"		*/\n" +
+	"	}\n" +
+	"\n" +
+	"	/* Report Table */\n" +
+	"\n" +
+	"	/* Enlarge the table so it use more space to show the data. */\n" +
+	"	table.rptTabulary {\n" +
+	"		width: auto !important;\n" +
+	"		margin-left: 20px !important;\n" +
+	"		margin-right: 20px !important;\n" +
+	"	}\n" +
+	"	/* Enlarge the font so we can read it easier. */\n" +
+	"	th.rptTabHeader,\n" +
+	"	th.rptTabSubHeader,\n" +
+	"	td.rptTabData {\n" +
+	"		font-size: 16px !important;\n" +
+	"		padding: 0.2em;\n" +
+	"	}\n" +
+	"	/* Gray out those no link cells since they carry no information. */\n" +
+	"	td.rptTabData {\n" +
+	"		color: gray !important;\n" +
+	"	}\n");
 
 spanElements = document.getElementsByTagName("span");
 for(i = 0; i < spanElements.length; i++) {
