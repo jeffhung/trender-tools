@@ -82,6 +82,9 @@ addGlobalStyle("span.reqfilled, td.ttFieldName {color: gray !important;}" +
 	"		font-size: 16px !important;\n" +
 	"		*/\n" +
 	"	}\n" +
+	"	span.F308 {    /* description */\n" +
+	"		font-family: Monaco, \"Courier New\", monospace;\n" +
+	"   }\n" +
 	"\n" +
 	"	/* Report Table */\n" +
 	"\n" +
