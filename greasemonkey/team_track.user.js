@@ -49,7 +49,7 @@ fields[4] = {name: "F435", label: "* Defect Found in Stage:", defaultValue: "Pre
 fields[5] = {name: "F339", label: "* How Found:", defaultValue: "Unit Test"};
 fields[6] = {name: "F338", label: "* Report From:", defaultValue: "PDG QA"};
 
-if(submitForm)  {
+if(submitForm && (submitForm.name == 'SubmitForm'))  {
 	for(x = 0; x < fields.length; x++) {
 		setFormSelectedValue(submitForm, fields[x].name, fields[x].defaultValue);
 	}
