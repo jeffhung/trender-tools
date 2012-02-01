@@ -1,0 +1,28 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("wiki.spn.tw.trendnet.org"), domain("coretech-backend-dev.tw.trendnet.org") {
+    #bodyContent {
+        font-size: 12pt !important;
+    }
+    pre {
+        padding: 0.5em !important;
+        font-size: 11pt !important;
+        overflow: auto !important;
+    }
+    .source-java,
+    .source-bash,
+    .source-ini,
+    .source-sql,
+    .source-php,
+    .mw-genshi {
+        padding: 0 !important;
+    }
+    .toc {
+        float: right;
+        margin-left: 1em !important;
+    }
+    .toc ul {
+        font-size: .9em !important;
+    }
+}
+
