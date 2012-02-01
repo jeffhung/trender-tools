@@ -1,9 +1,9 @@
-Team Track Enhancements For Trenders (tte4t)
-============================================
+Trender Tools for Enhancing Our Development Environment
+=======================================================
 
-Using Team Track isn't a good experience, since there are so many fields that
-may make you lose focus. This project tries to use various methods to enhance
-the user experience, hence increase our productivity.
+There are some rooms to enhance in the development infrastructures we trenders
+use day by day. This project tries to use some uninstrusive way to optimize the
+infrastructures to increase our productivity.
 
 Contributors
 ------------
@@ -18,7 +18,7 @@ This software is licensed under a variation of [beerware][bw]:
 
   Some Trenders contributed this software. As long as you retain this notice
   you can do whatever you want with this stuff. If we meet some day, and you
-  think this stuff is worth it, you can buy us a coke in return.
+  think this stuff is worth it, you can buy us a Coke in return.
 
 [bw]: http://en.wikipedia.org/wiki/Beerware
 
@@ -38,10 +38,10 @@ Track.
 Development Plan
 ----------------
 
-Here is a roughly plan to develop tte4t:
+Here is a roughly plan to develop trender-tools:
 
-1. Let's first using Stylish to customize Team Track UI, to find out the
-   desired way to help us focus on most important things.
+1. Let's first using Stylish to customize infrastructure web interface, to find
+   out the desired way to help us focus on most important things.
 
 2. The next step can be switching from Stylish to Greasemonkey, which allow us
    to use user script (javascript) to modify page behaviors. For example, hide
