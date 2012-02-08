@@ -43,6 +43,7 @@
     }
     
     /* auto-hide toc */
+	/*
     .toc {
         display: block;
         width: 8%;
@@ -51,5 +52,6 @@
     .toc:hover {
         width: auto;
     }
+	*/
 }
 
